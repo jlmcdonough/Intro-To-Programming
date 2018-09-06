@@ -5,6 +5,6 @@
 #def main():
 	#distance = input("How far is the light travelling? Just provide the number in miles. ")
 	#time = distance / 186000
-float time = 34000000 / 186000
-print("It would take " + time + " seconds")
+#float time = 34000000 / 186000
+print("It would take " + 34000000 / 186000 + " seconds")
 
