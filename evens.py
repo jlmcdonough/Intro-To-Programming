@@ -5,8 +5,8 @@
 for i in range(10):
 	print(i)
 
-for j in range(1,21)
-	if(j%2)
+for j in range(1, 21):
+	if(j%2):
 		print(j)
 
 
