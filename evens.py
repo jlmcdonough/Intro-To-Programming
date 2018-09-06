@@ -9,7 +9,7 @@ for i in range(10):
 print(" ")
 print("Print even numbers betwenn 2 and 20")
 
-for j in range(2, 20):
+for j in range(2, 21):
 	if(j%2==0):
 		print(j)
 
