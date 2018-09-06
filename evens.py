@@ -7,7 +7,7 @@ for i in range(10):
 	print(i)
 
 print(" ")
-print("Print even numbers betwenn 2 and 20"
+print("Print even numbers betwenn 2 and 20")
 
 for j in range(2, 20):
 	if(j%2):
