@@ -2,10 +2,14 @@
 #September 6 2018
 #evens.py
 
+print("Stated in directions")
 for i in range(10):
 	print(i)
 
-for j in range(1, 21):
+print(" ")
+print("Print even numbers betwenn 2 and 20"
+
+for j in range(2, 20):
 	if(j%2):
 		print(j)
 
