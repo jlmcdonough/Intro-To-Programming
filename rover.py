@@ -3,7 +3,7 @@
 #rover.py
 
 def main():
-	distance = eval(input("How far is the light travelling? Just provide the number in miles. "))
+	distance = float(input("How far is the light travelling? Just provide the number in miles. ")
 speedOfLight = 186000 #in miles
 time = distance / speedOfLight
 #time = 34000000/186000
