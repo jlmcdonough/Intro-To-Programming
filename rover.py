@@ -9,4 +9,5 @@ time = 34000000/186000
 print("It would take ")
 print(time)
 print(" seconds")
+print("It would take ", time, " seconds") 
 
