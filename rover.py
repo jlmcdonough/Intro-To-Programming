@@ -3,8 +3,9 @@
 #rover.py
 
 def main():
-	distance = input("How far is the light travelling? Just provide the number. ")
-	time = distance/186000
+	#distance = input("How far is the light travelling? Just provide the number in miles. ")
+	#time = distance / 186000
+	time = 34000000 / 186000
 	print("It would take " + time + " seconds")
 
 main()
