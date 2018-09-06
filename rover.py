@@ -7,6 +7,6 @@
 #speedOfLight = 186000.0 #in miles
 #time = distance / 186000
 time = 34000000/186000  
-print("It would take ", time, " seconds for the Mars Curiosity rocer to send photos from Mars to Earth") 
+print("It would take ", time, " seconds for the Mars Curiosity rover to send photos from Mars to Earth") 
 
 #main()
