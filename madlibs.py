@@ -1,7 +1,10 @@
 #Joseph McDonough CMPT 120-113
 #Lab 2 - Mad Libs
 #9/6/18
-'noun, verb, adjective, place'
+noun=str("")
+verbs=str("")
+adjective=str("")
+place=str("")
 def promptForWords():
     noun = input("Enter a noun: ")
     verb = input("Enter a verb: ")
@@ -14,7 +17,6 @@ def makeAndPrintSentence():
 def main():
 	promptForWords()
 	makeAndPrintSentence()
-
 
 main()
     
