@@ -2,7 +2,7 @@
 #Lab 2 - Mad Libs
 #9/6/18
 noun=str("")
-verbs=str("")
+verb=str("")
 adjective=str("")
 place=str("")
 def promptForWords():
