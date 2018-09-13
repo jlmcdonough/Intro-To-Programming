@@ -2,7 +2,7 @@
 #Lab 2 - Mad Libs
 #9/6/18
 def promptForWords():
-    'noun,verb,adjective,place'
+    'noun, verb, adjective, place'
     noun = input("Enter a noun: ")
     verb = input("Enter a verb: ")
     adjective = input("Enter an adjective: ")
