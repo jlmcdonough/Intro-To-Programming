@@ -3,8 +3,7 @@
 #20 September 2018
 #Lab 4 - Fibonacci Sequence
 
-def fibonacciSequence(n):
-    float num = n
+def fibonacciSequence(int n):
     currentValue = 0
     nextValue = 1
     while nextValue <= num:
