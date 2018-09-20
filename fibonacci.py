@@ -11,7 +11,7 @@ def fibonacciSequence(n):
 		for x in range(n-2):
 			nextValue = currentValue+previousValue
 			currentValue=previousValue
-			x++
+			#x++
 	else:
 		return 1
 	return nextValue
