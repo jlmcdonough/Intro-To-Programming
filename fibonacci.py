@@ -4,9 +4,10 @@
 #Lab 4 - Fibonacci Sequence
 
 def fibonacciSequence(n):
+    float num = n
     currentValue = 0
     nextValue = 1
-    while nextValue <= n:
+    while nextValue <= num:
         previousValue = currentValue
         currentValue = nextValue
         nextValue += previousValue
