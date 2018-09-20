@@ -3,7 +3,7 @@
 #20 September 2018
 #Lab 4 - Fibonacci Sequence
 
-def fibonacciSequence(int n):
+def fibonacciSequence(n):
     currentValue = 0
     nextValue = 1
     while nextValue <= num:
@@ -13,7 +13,7 @@ def fibonacciSequence(int n):
                                                                                                  
     return currentValue
 
-inputValue = input("Enter how many times you would like the Fibonacci sequence to run: ")
+int(inputValue = input("Enter how many times you would like the Fibonacci sequence to run: "))
 print("The fibonacci sequence after being ran" ,inputValue, "times, the value is" ,fibonacciSequence(inputValue))  
 
 			
