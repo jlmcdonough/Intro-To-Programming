@@ -10,7 +10,7 @@ def fibonacciSequence(n):
 	#nextValue = 2
 	if(n>2):	
 		for x in range(n-2):
-			global nextValue = currentValue+previousValue
+			nextValue = currentValue+previousValue
 			currentValue=previousValue
 			#x++
 	else:
