@@ -13,7 +13,7 @@ def fibonacciSequence(n):
                                                                                                  
     return currentValue
 
-int(inputValue = input("Enter how many times you would like the Fibonacci sequence to run: "))
+inputValue = int(input("Enter how many times you would like the Fibonacci sequence to run: "))
 print("The fibonacci sequence after being ran" ,inputValue, "times, the value is" ,fibonacciSequence(inputValue))  
 
 			
