@@ -6,7 +6,7 @@
 def fibonacciSequence(n):
 	currentValue = 1
 	previousValue = 1
-	#global nextValue
+	global nextValue
 	#nextValue = 2
 	if(n>2):	
 		for x in range(n-2):
@@ -19,7 +19,7 @@ def fibonacciSequence(n):
 
 
 inputValue = input("Enter how many times you would like the Fibonacci sequence to run: ")
-print("The fibonacci sequence after being ran " + inputValue + " times, the value is " + nextValue)  
+print("The fibonacci sequence after being ran " + inputValue + " times, the value is " + fibonacciSequence(inputValue))  
 
 			
 			
