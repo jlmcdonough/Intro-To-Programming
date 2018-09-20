@@ -4,11 +4,12 @@
 #Lab 4 - Fibonacci Sequence
 
 def fibonacciSequence(n):
-	global currentValue = 1
-	global previousValue = 1
+	currentValue = 1
+	previousValue = 1
+	global nextValue
 	if(n>2):	
 		for x in range(n-2):
-			global nextValue = currentValue+previousValue
+			nextValue = currentValue+previousValue
 			currentValue=previousValue
 			x++
 	else:
