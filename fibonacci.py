@@ -6,7 +6,7 @@
 def fibonacciSequence(n):
     currentValue = 0
     nextValue = 1
-    for x in range(n):
+    for x in range(n-1):
         previousValue = currentValue
         currentValue = nextValue
         nextValue += previousValue
