@@ -3,9 +3,6 @@
 #20 September 2018
 #Lab 4 - Fibonacci Sequence
 
-inputValue = input("Enter how many times you would like the Fibonacci sequence to run: ")
-print("The fibonacci sequence after being ran " + inputValue + " times, the value is " + fibonacciSequence(inputValue))  
-
 def fibonacciSequence(n):
 	currentValue = 1
 	previousValue = 1
@@ -20,6 +17,9 @@ def fibonacciSequence(n):
 	else:
 		return answer
 	return answer
+
+inputValue = input("Enter how many times you would like the Fibonacci sequence to run: ")
+print("The fibonacci sequence after being ran " + inputValue + " times, the value is " + fibonacciSequence(inputValue))  
 
 			
 			
