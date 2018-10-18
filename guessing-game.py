@@ -10,6 +10,8 @@ def main():
         if(guess==animalName):
             print("You guessed correct! Congratulations!")
             break
+        elif(guess=="quit"):
+            break
         else:
             print("You guess was wrong please try again.")
 
