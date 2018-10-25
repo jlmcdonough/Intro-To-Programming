@@ -3,6 +3,8 @@
 # 25 October 2018
 ###
 
+print(2**3)
+
 def showIntro():
     print("Welcome to the Arithmetic Engine!")
     print("=================================\n")
@@ -28,11 +30,12 @@ def doLoop():
             elif (cmd == "div"):
                 result = num1 // num2
             elif (cmd == "pow"):
-                result == num1**num2
+                result = num1**num2
         elif (cmd == "quit"):
             break
         else:
             print(cmd + " is not a valid command.")
+            continue
         print("The result is " + str(result) + ".\n")
 
 def main():
