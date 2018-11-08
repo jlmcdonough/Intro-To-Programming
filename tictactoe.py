@@ -4,7 +4,7 @@
 # Created: 2018-11-08
 
 symbol = [ " ", "x", "o" ]
-mark = [0,0,0,0,0,0,0,0,0]
+mark = [" "," "," "," "," "," "," "," "," "]
 def printRow(row):
     output = "|"
     for cell in row:
@@ -29,12 +29,12 @@ def markBoard(board, row, col, player):
     index = 0
     for i in range(1,4): #row
         for j in range(1,4):  #col    
-            if(row==str(i) and col==str(j) and mark[index]==0):  #loops takes it across the top row and then down to the next row. Index starts at 0, meaning top left, and increases with the for-loops
+            if(row==str(i) and col==str(j) and mark[index]==" "):  #loops takes it across the top row and then down to the next row. Index starts at 0, meaning top left, and increases with the for-loops
                 if(player==1):
-                    mark[0] = symbol [1]
+                    mark[index] = symbol [1]
                     return True
                 else:
-                    mark[0] = symbol[2]
+                    mark[index] = symbol[2]
                     return True
             index+=1
     return False
@@ -47,7 +47,7 @@ def getPlayerMove():
 def hasBlanks(board):
     while hasBlanks:
         for i in mark:
-            if(i==0):
+            if(i==" "):
                 return True
         return False
     
