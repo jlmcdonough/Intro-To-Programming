@@ -31,8 +31,8 @@ def printStock():
     print("Available Products")
     print("------------------")
     for i in range(0,len(products)):
-        if products[i.testStock(1)]:
-            print(str(i)+")",products[i.name], "$", products[i.price])
+        if products[i].testStock(1):
+            print(str(i)+")",products[i].name, "$", products[i].price)
     print()
     
 def main():
@@ -44,14 +44,14 @@ def main():
             break
         prodId = int(vals[0])
         count = int(vals[1])
-        if products[prodId.quantity] >= count:
-            if cash >= products[prodId.price] * count:
-                products[prodId.quantity] -= count
-                cash -= products[prodId.price] * count
-                print("You purchased", count, products[prodId.name]+".")
+        if products[prodId].testStock(count):
+            if cash >= products[prodId].findTotal(count):
+                products[prodId].fixStock(count)
+                cash -= products[prodId].findTotal(count)
+                print("You purchased", count, products[prodId].name+".")
                 print("You have $", "{0:.2f}".format(cash), "remaining.")
             else:
                 print("Sorry, you cannot afford that product.")
         else:
-            print("Sorry, we are sold out of", products[prodId.name])
+            print("Sorry, we are sold out of", products[prodId].name)
 main()
